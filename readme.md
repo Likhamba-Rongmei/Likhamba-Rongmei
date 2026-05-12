@@ -44,7 +44,7 @@ Cybersecurity Domain Lead (Author #2 of 6). Owned threat modeling, MITRE ATT&CK 
 
 ## Presence
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top%207%25-red?style=flat-square&logo=tryhackme)](https://tryhackme.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Likhamba-blue?style=flat-square&logo=linkedin)](www.linkedin.com/in/likhamba-rongmei)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top%207%25-red?style=flat-square&logo=tryhackme)]([https://tryhackme.com](https://tryhackme.com/p/Hackermaan))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Likhamba-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/likhamba-rongmei)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Likhamba.dev-black?style=flat-square)](https://likhamba-rongmei.github.io)
 [![Email](https://img.shields.io/badge/Email-likhambarong%40gmail.com-grey?style=flat-square&logo=gmail)](mailto:likhambarong@gmail.com)
