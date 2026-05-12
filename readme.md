@@ -38,13 +38,13 @@ Cybersecurity Domain Lead (Author #2 of 6). Owned threat modeling, MITRE ATT&CK 
 
 ## Certifications
 
-**CompTIA Security+ (SY0-701)** · Valid Jan 2026 – Jan 2029 · [Verify on Credly](#)
+**CompTIA Security+ (SY0-701)** · Valid Jan 2026 – Jan 2029 · [Verify on Credly](https://www.credly.com/badges/4d6f6fe6-6885-4372-afb8-be4be5df92d6/public_url)
 
 ---
 
 ## Presence
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Top%207%25-red?style=flat-square&logo=tryhackme)](https://tryhackme.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Likhamba-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/linkedin-Likhamba)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Likhamba-blue?style=flat-square&logo=linkedin)](www.linkedin.com/in/likhamba-rongmei)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Likhamba.dev-black?style=flat-square)](https://likhamba-rongmei.github.io)
 [![Email](https://img.shields.io/badge/Email-likhambarong%40gmail.com-grey?style=flat-square&logo=gmail)](mailto:likhambarong@gmail.com)
