@@ -8,6 +8,8 @@
 
 I work across both sides of security — building detection infrastructure and learning to think like an attacker. My foundation is in **SOC and cloud defense**, and I'm actively expanding into **offensive security and pentesting** via hands-on labs and TryHackMe's Jr Pentester path.
 
+- **Modern Web Stack Security Labs** — Pentest-style security assessments across four production stacks: MERN, Next.js, Django, and LAMP. Exploited CVE-2025-29927 (Next.js middleware auth bypass, CVSS 9.1), CVE-2021-35042 (Django SQL injection via unsafe `ORDER BY`, CVSS 9.8), and CVE-2021-41773 (Apache 2.4.49 path traversal to unauthenticated RCE, CVSS 9.8). Each finding documented as a standalone case study covering stack fingerprinting, exploit chain, impact, and remediation.
+
 - **AWS Cloud SOC Lab** — Simulated IAM privilege escalation (T1098), S3 public exposure (T1530), and EC2 persistence (T1078) against a live AWS environment. Reconstructed attack timelines manually via CloudTrail with zero managed detection services. Executed full IR: credential revocation, security group hardening, IAM cleanup.
 
 - **Wazuh SIEM Implementation** — Multi-host SOC lab with Ubuntu SIEM server, Windows 11 endpoint, and macOS analyst workstation. Extended default log ingestion with custom `ossec.conf` to capture Windows Defender Operational logs. Validated detection across brute force and malware execution scenarios.
