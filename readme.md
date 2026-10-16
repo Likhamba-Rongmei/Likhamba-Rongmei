@@ -1,28 +1,24 @@
 # Likhamba Rongmei
-**Developer with a security background** · CompTIA Security+ · KIIT B.Tech CSE '27
-`Full-Stack Web` · `Java & DSA` · `Application Security` · `Cloud Security`
+**CSE undergrad with a security background, moving into full-stack development** · CompTIA Security+ · KIIT B.Tech CSE '27
+`Security Operations` · `Cloud Security` · `Java & DSA` · `MERN (learning)`
 
 ---
 
 ## About
 
-I build web applications, and I care about how they break.
+My background is in security: SIEM deployment, cloud attack simulation and incident response. That taught me how real systems get attacked and how to investigate when they do.
 
-I started out in security: SOC labs, cloud attack simulation and web app pentesting. That taught me how real systems get attacked. Now I'm focused on building them: full-stack web development and DSA in Java. The goal is to be a developer who writes secure software from the start, not one who patches it afterwards.
+Now I'm focused on building them. I'm practising DSA in Java and learning full-stack web development with the MERN stack. The goal is to be a developer who writes secure software from the start, not one who patches it afterwards.
 
 ---
 
 ## Projects
 
-- **[ARGUS](https://github.com/Likhamba-Rongmei/ARGUS)**: Full-stack document fraud detection platform (React + FastAPI). Runs forensic analysis (error level analysis, JPEG ghost, noise, metadata, PDF structure, timestamps) and registry verification in parallel on invoices, bank statements and land records, then merges both into a four-state verdict. An LLM extracts structured claims from OCR text, and a React dashboard renders a D3 force-directed evidence graph.
+- **[Deception & Log Integrity](https://github.com/Likhamba-Rongmei/deception-log-integrity)**: A Flask honeypot (decoy admin login portal) that records visitor IPs, user agents and credential attempts, flags brute force per IP, and escapes attacker input on its alert dashboard to prevent stored XSS. Paired with a tamper-evident logger that hash-chains entries with SHA-256 and pinpoints edited, deleted or reordered records.
 
-- **[Modern Web Stack Security Labs](https://github.com/Likhamba-Rongmei/modern-web-stack-security-labs)**: Pentest-style case studies across MERN, Next.js, Django and LAMP. Covers prototype pollution to admin in Express, CVE-2025-29927 (Next.js middleware auth bypass, CVSS 9.1), CVE-2021-35042 (Django SQL injection via `ORDER BY`, CVSS 9.8) and CVE-2021-41773 (Apache path traversal to RCE, CVSS 9.8). Each write-up covers fingerprinting, the exploit chain, impact and remediation.
+- **[AWS Cloud SOC Lab](https://github.com/Likhamba-Rongmei/AWS-Cloud-SOC-Lab-Attack-Simulation-Detection)**: Simulated IAM privilege escalation (T1098), public S3 exposure (T1530) and EC2 persistence (T1078) on a live AWS account. Detected each attack by querying raw CloudTrail events from the CLI, without GuardDuty or Security Hub, then handled containment and remediation.
 
-- **[Deception & Log Integrity](https://github.com/Likhamba-Rongmei/deception-log-integrity)**: A Flask honeypot (decoy admin portal with a live alert dashboard and brute-force detection) paired with a tamper-evident logger that hash-chains entries with SHA-256 and pinpoints edited, deleted or reordered records.
-
-- **[AWS Cloud SOC Lab](https://github.com/Likhamba-Rongmei/AWS-Cloud-SOC-Lab-Attack-Simulation-Detection)**: Simulated IAM privilege escalation (T1098), S3 exposure (T1530) and EC2 persistence (T1078) on a live AWS account. Rebuilt each attack timeline from raw CloudTrail logs and handled containment and remediation without managed detection services.
-
-- **[Wazuh SIEM Implementation](https://github.com/Likhamba-Rongmei/Wazuh-SIEM-Implementation)**: Multi-host SOC lab (Ubuntu SIEM server, Windows 11 endpoint, macOS analyst station). Extended the agent config to ingest Windows Defender logs and validated brute-force and malware detections end to end.
+- **[Wazuh SIEM Implementation](https://github.com/Likhamba-Rongmei/Wazuh-SIEM-Implementation)**: Multi-host SOC lab (Ubuntu SIEM server, Windows 11 endpoint, macOS analyst station). Extended the agent config to ingest Windows Defender logs, validated brute-force (Event ID 4625) and malware (EICAR, Event ID 1116) detections, and fixed real deployment issues along the way: ARM64 incompatibility, audit policy and agent connectivity.
 
 ---
 
@@ -40,7 +36,7 @@ BRIDGE unifies four public intrusion datasets, produced by three different featu
 ## Currently
 
 - Practising DSA in Java
-- Learning the modern web stack (Node.js next)
+- Learning the MERN stack (MongoDB, Express, React, Node.js)
 - TryHackMe Jr Penetration Tester path, top 5% globally
 
 ---
@@ -49,10 +45,11 @@ BRIDGE unifies four public intrusion datasets, produced by three different featu
 
 | Area | Tools |
 |---|---|
-| Languages | Java, Python, JavaScript, C, SQL, Bash |
-| Web | React, FastAPI, Flask, REST APIs, HTML/CSS, D3.js |
-| Cloud & Tools | AWS (IAM, EC2, S3, VPC, CloudTrail), Git, Linux |
-| Security | OWASP Top 10, Burp Suite, Wazuh, Wireshark, Nmap, Metasploit, MITRE ATT&CK |
+| Languages | Java, JavaScript, C, SQL, Python |
+| Web | HTML/CSS, REST APIs, Git, GitHub |
+| Cloud & Systems | AWS (IAM, EC2, S3, VPC, CloudTrail), Linux (Ubuntu), Windows |
+| Security | Log Analysis, Incident Response, Alert Triage, MITRE ATT&CK, OWASP Top 10 |
+| Security Tools | Wazuh SIEM, Wireshark, Burp Suite, Nmap, Metasploit |
 
 ---
 
