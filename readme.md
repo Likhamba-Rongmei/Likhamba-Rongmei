@@ -59,7 +59,7 @@ BRIDGE unifies four public intrusion datasets, produced by three different featu
 
 ## Presence
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_5%25-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/Hackermaan)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_5%25-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/Heckermon)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Likhamba-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/likhamba-rongmei)
 [![Portfolio](https://img.shields.io/badge/Portfolio-likhamba--rongmei.github.io-black?style=flat-square)](https://likhamba-rongmei.github.io)
 [![Email](https://img.shields.io/badge/Email-likhambarong%40gmail.com-grey?style=flat-square&logo=gmail)](mailto:likhambarong@gmail.com)
