@@ -14,8 +14,6 @@ Now I'm focused on building them. I'm practising DSA in Java and learning full-s
 
 ## Projects
 
-- **[Deception & Log Integrity](https://github.com/Likhamba-Rongmei/deception-log-integrity)**: A Flask honeypot (decoy admin login portal) that records visitor IPs, user agents and credential attempts, flags brute force per IP, and escapes attacker input on its alert dashboard to prevent stored XSS. Paired with a tamper-evident logger that hash-chains entries with SHA-256 and pinpoints edited, deleted or reordered records.
-
 - **[AWS Cloud SOC Lab](https://github.com/Likhamba-Rongmei/AWS-Cloud-SOC-Lab-Attack-Simulation-Detection)**: Simulated IAM privilege escalation (T1098), public S3 exposure (T1530) and EC2 persistence (T1078) on a live AWS account. Detected each attack by querying raw CloudTrail events from the CLI, without GuardDuty or Security Hub, then handled containment and remediation.
 
 - **[Wazuh SIEM Implementation](https://github.com/Likhamba-Rongmei/Wazuh-SIEM-Implementation)**: Multi-host SOC lab (Ubuntu SIEM server, Windows 11 endpoint, macOS analyst station). Extended the agent config to ingest Windows Defender logs, validated brute-force (Event ID 4625) and malware (EICAR, Event ID 1116) detections, and fixed real deployment issues along the way: ARM64 incompatibility, audit policy and agent connectivity.
@@ -45,8 +43,8 @@ BRIDGE unifies four public intrusion datasets, produced by three different featu
 
 | Area | Tools |
 |---|---|
-| Languages | Java, JavaScript, C, SQL, Python |
-| Web | HTML/CSS, REST APIs, Git, GitHub |
+| Languages | Java, JavaScript, C, SQL |
+| Web & Tools | HTML/CSS, Git, GitHub |
 | Cloud & Systems | AWS (IAM, EC2, S3, VPC, CloudTrail), Linux (Ubuntu), Windows |
 | Security | Log Analysis, Incident Response, Alert Triage, MITRE ATT&CK, OWASP Top 10 |
 | Security Tools | Wazuh SIEM, Wireshark, Burp Suite, Nmap, Metasploit |
